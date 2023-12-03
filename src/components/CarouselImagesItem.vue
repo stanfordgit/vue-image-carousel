@@ -43,12 +43,20 @@ function toggleSelectedImageStore(val) {
   position: relative;
   border-radius: 8px;
 
+  @media screen and (max-width: 600px) {
+    border-radius: 0px;
+  }
+
   .image {
     height: 342px;
     min-width: 100%;
     border-radius: 8px;
     object-fit: cover;
     z-index: 1;
+
+    @media screen and (max-width: 600px) {
+      border-radius: 0px;
+    }
   }
 
   .button-add-selected-list {
