@@ -1,0 +1,16 @@
+
+body {
+    background: #f5f7f9;
+    color: $color-black;
+    font-family: 'Inter', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 auto;
+}
+a{
+    transition: color 0.2s ease;
+}
