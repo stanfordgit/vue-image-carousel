@@ -91,7 +91,7 @@ function scrollImage(direction) {
     @media screen and (max-width: 600px) {
       grid-auto-columns: 100%;
       border-radius: 0px;
-      gap: 0px;
+      gap: 0.1px;
     }
 
     &::-webkit-scrollbar {
